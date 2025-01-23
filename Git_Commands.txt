@@ -5,17 +5,17 @@ git status
 git checkout -b feature/{branchname}
 
 Stagging
-git add . or --all 			            -> To track all files
+git add . or --all 			-> To track all files
 git add {filename}
 
-git status 			                  	-> Files that have changes will be shown in green
+git status 				-> Files that have changes will be shown in green
 
 To push file to server
 git commit -m "{message}"
 
 git push origin {feature_branch_name}
 
-git checkout main 			            -> To go to current branch
+git checkout main 			-> To go to current branch
 
 git fetch 				-> To sync server and local (all branches or changes) / will bring all the user changes done in the server to local repository
 
