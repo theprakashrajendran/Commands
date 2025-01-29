@@ -48,4 +48,10 @@ gitignore 				-> Mentioned files types in this file will not be tracked
 
 After a pull request, the feature branch can be deleted
 
+git pull --rebase origin your-branch-name
+git push origin your-branch-name
+
+git checkout -b new-branch
+git push origin new-branch
+
 
